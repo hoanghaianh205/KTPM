@@ -1,56 +1,67 @@
-# KTPM
-📱 PhoneStore – Website Bán Điện Thoại Trực Tuyến
+# DoAn_Web1
 
+Donate? Muốn hỗ trợ mình 1 ly cafe <3 [Donate here](https://github.com/HoangTran0410/HoangTran0410/blob/main/DONATE.md)
 
-📌 Mô tả dự án
-PhoneStore là một website thương mại điện tử chuyên bán các loại điện thoại di động. Trang web cho phép người dùng duyệt, tìm kiếm và mua sản phẩm dễ dàng. Quản trị viên có thể quản lý sản phẩm, đơn hàng và người dùng. Hệ thống có giao diện trực quan, thân thiện với người dùng, kết nối với cơ sở dữ liệu MySQL để lưu trữ và xử lý thông tin.
+Đồ án môn web 1, web tĩnh, đề tài trang web bán điện thoại.
 
+Giao diện thân thiện, dễ sử dụng, chức năng khá đầy đủ.
 
-🛠️ Công nghệ sử dụng
-Frontend:
-HTML, CSS, JavaScript, Bootstrap
-Backend:
-Python (Flask) / hoặc Node.js (Express)
-JavaScript
+Chức năng **Cơ bản**:
 
+- Trang chủ hiển thị đẹp, các sản phẩm được chia theo nhiều tiêu chí: nổi bật, mới, khuyến mãi, giá rẻ, .. 
+- Tìm kiếm/lọc/sắp xếp sản phẩm theo hãng, giá, tên, khuyến mãi, đánh giá, số sao, ...
+- Đăng ký, đăng nhập, giỏ hàng, trang người dùng, lịch sử mua hàng.
+- Trang chi tiết sản phẩm, giao diện **gợi ý sản phẩm** tương tự.
 
-Cơ sở dữ liệu:
-MySQL
-Thư viện/Framework hỗ trợ:
-Axios (gọi API)
-SQLAlchemy (nếu dùng Flask)
-JWT (xác thực người dùng)
+Chức năng **ADMIN**:
 
+- **Thống kê** số lượng bán ra, doanh thu của từng hãng
+- Danh sách **sản phẩm**, tìm kiếm/lọc, thêm/sửa/xoá sản phẩm
+- Danh sách **đơn hàng**, tìm kiếm/lọc, duyệt/huỷ đơn hàng
+- Danh sách **khách hàng**, tìm kiếm/lọc, thêm/xoá/khoá khác hàng
 
-⚙️ Các chức năng chính
+## Admin Account: 
++ username: admin
++ password: adadad
 
-🔐 Đăng nhập/Đăng ký
-Người dùng có thể đăng ký tài khoản và đăng nhập.
-Hệ thống có 2 loại người dùng:
-Khách hàng: Mua hàng, theo dõi đơn hàng.
-Quản trị viên (Admin): Quản lý toàn bộ hệ thống.
+## Screenshots
 
-📱 Quản lý sản phẩm
-Thêm/sửa/xóa sản phẩm (dành cho Admin).
-Hiển thị danh sách điện thoại theo danh mục, thương hiệu.
-Xem chi tiết từng sản phẩm (mô tả, ảnh, giá, cấu hình).
+### Cơ bản
 
-🛒 Giỏ hàng và đặt hàng
-Khách hàng có thể thêm sản phẩm vào giỏ hàng.
-Cập nhật số lượng hoặc xóa sản phẩm khỏi giỏ.
-Tiến hành đặt hàng, chọn phương thức thanh toán (COD).
+Trang chủ
+![Trang chủ](./screenshots/Screenshot_1.png)
 
-📦 Quản lý đơn hàng
-Người dùng có thể xem lại đơn hàng đã đặt.
-Quản trị viên theo dõi và cập nhật trạng thái đơn hàng:
-Đang xử lý / Đang giao / Hoàn tất
+Sản phẩm trong trang chủ
+![Trang chủ](./screenshots/Screenshot_2.png)
 
-🔍 Tìm kiếm & Lọc sản phẩm
-Tìm kiếm theo tên sản phẩm.
-Lọc theo giá, thương hiệu, loại điện thoại.
+Chi tiết sản phẩm
+![Trang chủ](./screenshots/Screenshot_3.png)
 
-🎯 Tính năng nổi bật
-Giao diện thân thiện, dễ sử dụng.
-Phân quyền rõ ràng giữa người dùng và quản trị viên.
-Chức năng mua hàng mượt mà, trực quan.
-Dễ mở rộng và tích hợp thanh toán online trong tương lai.
+Đăng nhập
+![Trang chủ](./screenshots/Screenshot_4.png)
+
+Đăng ký
+![Trang chủ](./screenshots/Screenshot_5.png)
+
+Trang người dùng
+![Trang chủ](./screenshots/Screenshot_6.png)
+
+Giỏ hàng
+![Trang chủ](./screenshots/Screenshot_7.png)
+
+Tìm kiếm/lọc/sắp xếp sản phẩm
+![Trang chủ](./screenshots/Screenshot_8.png)
+
+### Admin
+
+Admin: Thống kê
+![Trang chủ](./screenshots/Screenshot_9.png)
+
+Admin: Sản phẩm
+![Trang chủ](./screenshots/Screenshot_10.png)
+
+Admin: Đơn hàng
+![Trang chủ](./screenshots/Screenshot_11.png)
+
+Admin: Người dùng
+![Trang chủ](./screenshots/Screenshot_12.png)
